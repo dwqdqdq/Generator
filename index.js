@@ -30,7 +30,7 @@ client.login(process.env.TOKEN);
 
 client.once('ready', () => {
 	log.info(`I am logged in as ${client.user.tag} to Discord!`); // Say hello to console
-    client.user.setActivity(`${config.prefix}help │ .gg/ Community`, { type: "WATCHING" }); // Set the bot's activity status
+    client.user.setActivity(`dsc.gg/autoaccs`, { type: "WATCHING" }); // Set the bot's activity status
     /* You can change the activity type to:
      * LISTENING
      * WATCHING
